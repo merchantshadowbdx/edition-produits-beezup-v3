@@ -32,16 +32,17 @@
     "mirakl_image_6"
   ],
   "BRICPT": [
-    "Código EAN",
-    "shop_sku",
-    "Título del producto",
-    "Descripción comercial (es_ES)",
-    "Image Mirakl 1",
-    "Image Mirakl 2",
-    "Image Mirakl 3",
-    "Image Mirakl 4",
-    "Image Mirakl 5",
-    "Image Mirakl 6"
+    "identifier_ean",
+    "name",
+    "name-pt_PT",
+    "advertising_descripcion_comercial-es_ES",
+    "advertising_descripcion_comercial-pt_PT",
+    "mirakl_image_1",
+    "mirakl_image_2",
+    "mirakl_image_3",
+    "mirakl_image_4",
+    "mirakl_image_5",
+    "mirakl_image_6"
   ],
   "CASTFR": [
     "ean",
@@ -56,29 +57,52 @@
   ],
   "CDONSE": [
     "gtin",
-    "SKU",
-    "title",
-    "description",
+    "title_se",
+    "description_se",
     "main_image",
-    "extra_image"
+    "images"
   ],
-  "DARTFR": [],
-  "DIVILV": [],
+  "DARTFR": [
+    "EANs/EAN",
+    "DisplayName_fr_FR",
+    "Description_fr_FR",
+    "AdditionalDescription_fr_FR",
+    "IMAGE|1505-1",
+    "IMAGE|3-1",
+    "IMAGE|3-2",
+    "IMAGE|3-3"
+  ],
+  "DIVILV": [
+    "ean",
+    "title",
+    "description"
+  ],
   "EMPIPL": [],
   "FNACFR": [],
   "FRUGUK": [],
   "FYNDDK": [],
   "FYNDFI": [],
   "FYNDSE": [],
-  "HOBBFI": [],
-  "JOOMFR": [],
-  "KAUPEE": [],
+  "HOBBFI": [
+    "ean",
+    "title",
+    "description"
+  ],
+  "JOOMFR": [
+    "EAN",
+    "Title",
+    "Desc",
+    "MainImage",
+    "ExtraImages"
+  ],
+  "KAUPEE": [
+    "ean",
+    "title",
+    "description"
+  ],
   "KINGGB": [],
   "LBCOFR": [],
-  "MANODE": [],
-  "MANOES": [],
-  "MANOFR": [
-    "sku",
+  "MANODE": [
     "ean",
     "title",
     "description",
@@ -88,18 +112,156 @@
     "image_4",
     "image_5"
   ],
-  "MANOIT": [],
-  "MANOUK": [],
-  "ONBUBE": [],
-  "ONBUDE": [],
-  "ONBUES": [],
-  "ONBUFI": [],
-  "ONBUFR": [],
-  "ONBUIT": [],
-  "ONBUNL": [],
-  "ONBUPT": [],
-  "ONBUUK": [],
-  "PIGULT": [],
+  "MANOES": [
+    "ean",
+    "title",
+    "description",
+    "image_1",
+    "image_2",
+    "image_3",
+    "image_4",
+    "image_5"
+  ],
+  "MANOFR": [
+    "ean",
+    "title",
+    "description",
+    "image_1",
+    "image_2",
+    "image_3",
+    "image_4",
+    "image_5"
+  ],
+  "MANOIT": [
+    "ean",
+    "title",
+    "description",
+    "image_1",
+    "image_2",
+    "image_3",
+    "image_4",
+    "image_5"
+  ],
+  "MANOUK": [
+    "ean",
+    "title",
+    "description",
+    "image_1",
+    "image_2",
+    "image_3",
+    "image_4",
+    "image_5"
+  ],
+  "ONBUBE": [
+    "EAN",
+    "product_name",
+    "description",
+    "default_image",
+    "additional_image_1",
+    "additional_image_2",
+    "additional_image_3",
+    "additional_image_4",
+    "additional_image_5"
+  ],
+  "ONBUDE": [
+    "EAN",
+    "product_name",
+    "description",
+    "default_image",
+    "additional_image_1",
+    "additional_image_2",
+    "additional_image_3",
+    "additional_image_4",
+    "additional_image_5"
+  ],
+  "ONBUES": [
+    "EAN",
+    "product_name",
+    "description",
+    "default_image",
+    "additional_image_1",
+    "additional_image_2",
+    "additional_image_3",
+    "additional_image_4",
+    "additional_image_5"
+  ],
+  "ONBUFI": [
+    "EAN",
+    "product_name",
+    "description",
+    "default_image",
+    "additional_image_1",
+    "additional_image_2",
+    "additional_image_3",
+    "additional_image_4",
+    "additional_image_5"
+  ],
+  "ONBUFR": [
+    "EAN",
+    "product_name",
+    "description",
+    "default_image",
+    "additional_image_1",
+    "additional_image_2",
+    "additional_image_3",
+    "additional_image_4",
+    "additional_image_5"
+  ],
+  "ONBUIT": [
+    "EAN",
+    "product_name",
+    "description",
+    "default_image",
+    "additional_image_1",
+    "additional_image_2",
+    "additional_image_3",
+    "additional_image_4",
+    "additional_image_5"
+  ],
+  "ONBUNL": [
+    "EAN",
+    "product_name",
+    "description",
+    "default_image",
+    "additional_image_1",
+    "additional_image_2",
+    "additional_image_3",
+    "additional_image_4",
+    "additional_image_5"
+  ],
+  "ONBUPT": [
+    "EAN",
+    "product_name",
+    "description",
+    "default_image",
+    "additional_image_1",
+    "additional_image_2",
+    "additional_image_3",
+    "additional_image_4",
+    "additional_image_5"
+  ],
+  "ONBUUK": [
+    "EAN",
+    "product_name",
+    "description",
+    "default_image",
+    "additional_image_1",
+    "additional_image_2",
+    "additional_image_3",
+    "additional_image_4",
+    "additional_image_5"
+  ],
+  "PIGULT": [
+    "ean",
+    "title",
+    "description",
+    "image_urls_1",
+    "image_urls_2",
+    "image_urls_3",
+    "image_urls_4",
+    "image_urls_5",
+    "image_urls_6"
+  ],
   "PRAXNL": [
     "core_gtin",
     "proddesc_online_product_name_NL_NL",
@@ -117,7 +279,6 @@
     "media_assets_instance_record_5"
   ],
   "RAKUFR": [
-    "SKU",
     "codebarres",
     "titre",
     "prdEdito",
@@ -126,15 +287,14 @@
   "RDCOFR": [],
   "SKROGR": [],
   "WORTPT": [
-    "sku",
-    "Product Name (PT)",
-    "Product Description (PT)",
-    "EAN",
-    "Image 1",
-    "Image 2",
-    "Image 3",
-    "Image 4",
-    "Image 5",
-    "Image 6"
+    "ean",
+    "product_name_pt_PT",
+    "product_description_pt_PT",
+    "image_1",
+    "image_2",
+    "image_3",
+    "image_4",
+    "image_5",
+    "image_6"
   ]
 }
