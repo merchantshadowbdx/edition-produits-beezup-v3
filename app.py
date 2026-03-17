@@ -61,7 +61,7 @@ def main():
         st.caption("Fait avec 💕 par ShadBeez")
 
     # Mise en page avec onglets
-    tab1, tab2, tab3 = st.tabs(["G\u00C9N\u00C9RER UN TEMPLATE", "\u00C9DITER DES PRODUITS", "TO DO"])
+    tab1, tab2 = st.tabs(["G\u00C9N\u00C9RER UN TEMPLATE", "\u00C9DITER DES PRODUITS"])
 
     with tab1:
         st.space("small")
@@ -90,12 +90,6 @@ def main():
     with tab2:
         st.space("small")
         edition_view.render()
-
-    with tab3:
-        st.write("""
-        - Vérifier le GPSR
-        - Vérifier la taille et le format des images
-        """)
 
 
 if __name__ == "__main__":
