@@ -1,3 +1,7 @@
+[client]
+showErrorDetails = "stacktrace"
+toolbarMode = "minimal"
+
 [theme]
 base="dark"
 primaryColor="#5E60D2"
