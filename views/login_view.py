@@ -26,7 +26,7 @@ def render():
                 st.subheader(":honeybee: :grey[ShadBeez \u22EE] :orange[\u0190dition \u00FEroduits v\u01B7]")
                 st.space("xxsmall")
 
-                email = st.text_input("Email", value="julien.sansous@octopia.com")
+                email = st.text_input("Email")
                 password = st.text_input("Mot de passe", type="password")
                 st.space("xxsmall")
                 submit_button = st.form_submit_button("Connexion", type="primary", width=200, key="login",
