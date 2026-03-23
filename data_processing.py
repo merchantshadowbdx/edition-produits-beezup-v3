@@ -152,7 +152,6 @@ def format_final_template(df_merged, df_selected_attributes, catalog_id, selecte
     # df = df[existing_desired + remaining_cols].copy()
 
     df = df.reindex(columns=desired_order)
-    df = df.fillna("")
     
     # --- 4. Renommage final ---
     # On prépare le dictionnaire de renommage (Codes -> Labels).
