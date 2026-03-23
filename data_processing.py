@@ -146,11 +146,14 @@ def format_final_template(df_merged, df_selected_attributes, catalog_id, selecte
             df[code] = pd.NA
 
     desired_order = first_cols + ordered_attribute_cols
-    existing_desired = [c for c in desired_order if c in df.columns]
-    remaining_cols = [c for c in df.columns if c not in existing_desired]
+    # existing_desired = [c for c in desired_order if c in df.columns]
+    # remaining_cols = [c for c in df.columns if c not in existing_desired]
 
-    df = df[existing_desired + remaining_cols].copy()
+    # df = df[existing_desired + remaining_cols].copy()
 
+    df = df.reindex(columns=desired_order)
+    df = df.fillna("")
+    
     # --- 4. Renommage final ---
     # On prépare le dictionnaire de renommage (Codes -> Labels).
     rename_dict = {**code_to_label, "sku": "SKU"}
